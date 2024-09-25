@@ -1,0 +1,46 @@
+*{
+    margin:auto;
+    font-family:"Cormorant_Garamond", serif;
+}
+
+@font-face {
+    font-family: "Cormorant_Garamond";
+    src: url("fontes/Cormorant_Garamond\,Handjet/") format("ttf");
+    font-weight: normal;
+    font-style: normal;
+}
+body{
+    background:#e6e6e6;
+}
+
+header{
+    background:#000;
+    color:#fff;
+    padding: 10px;
+    margin-bottom: 5px;
+    display:flex;
+    flex-direction: column;
+}
+
+header a{
+    text-decoration: none;
+    color:#fff;
+
+}
+
+header a:hover{
+    background:#e6e6e6;
+    color:#000;
+    border-radius:27px;
+    box-shadow:1px 1px 1px #000;
+    padding:2px;
+    margin:2px;
+}
+
+
+main{
+    width: 620px;
+    padding:10px;
+    display: block;
+    background:#fff;
+}
