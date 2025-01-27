@@ -4,11 +4,11 @@
 }
 
 :root{
-    --fist:#283540;
-    --second:#4D6173;
-    --third:#8094A6;
-    --fourth:#D8E6F2;
-    --fifth:#0D0D0D;
+    --fist:#011C40;
+    --second:#011126;
+    --third:#032859;
+    --fourth:#074973;
+    --fifth:#08678C;
 
 }
 
@@ -17,7 +17,11 @@
     font-family: 'Oswald';
 }
 
-
+body{
+    position: relative;
+    min-height: 100%;
+    min-height: 100vh;
+}
 
 header{
     display: flex;
@@ -59,9 +63,8 @@ header a:active{
 }
 
 main {
-    min-width: 220px;
     max-width: 520px;
-    display: flexbox;
+    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     margin-top: 10px;
@@ -71,16 +74,11 @@ main {
 
 
 footer{
-    display: flexbox;
+    display: block;
     background: var(--fist);
     color:#fff;
     width: 100%;
     bottom: 0;
     position:absolute;
-}
-
-/*Formatações para página translations*/
-
-.Titulos{
-    background: var(--second);
+    min-width:360px;
 }
