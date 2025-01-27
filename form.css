@@ -13,15 +13,11 @@
 }
 
 * {
-    margin:auto;
+    margin:0 auto;
     font-family: 'Oswald';
 }
 
-body{
-    position: relative;
-    min-height: 100%;
-    min-height: 100vh;
-}
+
 
 header{
     display: flex;
@@ -63,8 +59,9 @@ header a:active{
 }
 
 main {
-    width: 620px;
-    display: flex;
+    min-width: 220px;
+    max-width: 520px;
+    display: flexbox;
     flex-wrap: wrap;
     flex-direction: column;
     margin-top: 10px;
