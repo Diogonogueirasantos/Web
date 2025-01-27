@@ -1,0 +1,46 @@
+:root{
+    --fist:#283540;
+    --second:#4D6173;
+    --third:#8094A6;
+    --fourth:#D8E6F2;
+    --fifth:#0D0D0D;
+
+}
+
+
+main{
+    border-radius: 27px 27px 0px 0px;
+    text-align: left;
+    background: #e2e2e2;
+}
+
+main h2{
+    border-radius: 27px 27px 0px 0px;
+    background: var(--fist);
+    width: 620px;
+    text-align: center;
+    color: #fff;
+    text-shadow: 1px 1px 1px #000;
+    margin-bottom:5px;
+}
+
+main a{
+    text-decoration: none;
+    color:var(--fist);
+}
+
+main a:hover{
+    color:var(--third);
+}
+
+img, video{
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.video_ajust{
+    min-height: 260px;
+    width: 100vw;
+    object-fit: cover;
+}
