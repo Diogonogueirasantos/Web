@@ -15,7 +15,7 @@
 * {
     margin:0 auto;
     font-family: 'Oswald';
-    font-size: 0.9em;
+    font-size: 1em;
 }
 
 body{
@@ -41,19 +41,20 @@ header{
     background-image:linear-gradient(to left, var(--fist), var(--third), var(--second));
     color:#fff;
     padding: 10px;
-    text-align: center;
     margin-bottom: 5px;
 }
 
 header h1{
   text-shadow: 2px 2px 2px #000;
+  text-align: left;
+  font-size: 1.5em;
 }
 
 header a{
     text-decoration: none;
     color:#fff;
     margin:2px;
-
+    text-align: left;
 }
 
 header a:hover{
@@ -75,6 +76,7 @@ header a:active{
 }
 
 
+
 body main h2{
     border-radius: 27px 27px 0px 0px;
     background: var(--fist);
@@ -93,7 +95,7 @@ body main h3, h4, h5{
 
 main a{
     text-decoration: none;
-    color:var(--third);
+    color:var(--fifth);
 }
 
 main img{
@@ -115,5 +117,3 @@ footer{
     background: var(--fist);
     color:#fff;
 }
-
-
