@@ -46,7 +46,7 @@ header{
 
 header h1{
   text-shadow: 2px 2px 2px #000;
-  text-align: left;
+  text-align: center;
   font-size: 1.5em;
 }
 
@@ -66,7 +66,7 @@ header a:hover{
 
 header a:visited{
     border-radius: 27px;
-    background:var(--second);
+    background:var(--third);
 }
 
 header a:active{
