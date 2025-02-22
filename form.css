@@ -117,3 +117,10 @@ footer{
     background: var(--fist);
     color:#fff;
 }
+
+
+.image_container{
+    display: flex;
+    max-width: 520px;
+    min-width: 220px;
+}
