@@ -106,3 +106,10 @@ table a{
     color:blue;
 }
 
+section{
+    margin-top: 15px;
+}
+
+section a{
+    text-decoration: none;
+}
