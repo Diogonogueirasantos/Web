@@ -9,9 +9,11 @@
 }
 
 :root{
-    --primeira:#939176;
-    --segunda:#5C5849;
-    --terceira:#3B3C3A;
+    --primeira:#0726D9;
+    --segunda:#031240;
+    --terceira:#1760BF;
+    --quarta:#3D9DF2;
+    --quinta:#52C5F2;
 }
 *{
     margin:0 auto;
@@ -25,13 +27,13 @@ body{
     flex-flow: column wrap;
     font-family: "Main_Font";
     min-height: 100vh;
-    background: #e6e6e6;
+    background: #f5f4f4;
     
 }
 
 header{
     width: 100%;
-    background:#000;
+    background-image: linear-gradient(to right, var(--primeira), var(--terceira), var(--quinta));
     color:#fff;
     height: 110px;
     margin-bottom: 5px;
@@ -62,8 +64,8 @@ header > nav > a{
 
 
 header > nav > a:hover{
-    background:#bebebe;
-    color:#fff;
+    background:#fff;
+    color:var(--segunda);
     border-radius: 27px;
     padding:5px;
     width:480px;
@@ -80,7 +82,6 @@ main{
     margin: 0 auto;
     background:#fff;    
     margin-bottom: 15px;
-    border-radius: 27px;
 }
 
 
@@ -102,7 +103,7 @@ footer{
     width: 100%;
     height: 55px;
     text-align: center;
-    background: #000;
+    background-image: linear-gradient(to right, var(--primeira), var(--terceira), var(--quinta));
     color:#fff;
 }
 
