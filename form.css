@@ -156,3 +156,9 @@ main section ul li a{
 main section ul li a:hover{
     color: #A6A6A6;
 }
+
+p{
+    font-size: 16px;
+    text-justify: auto;
+    margin: 15px;
+}
