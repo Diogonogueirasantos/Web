@@ -1,51 +1,90 @@
 <!DOCTYPE html>
 <html lang="pt-br">
     <head>
-        <meta charset="utf8">
+        <meta charser="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Portifólio</title>
-        <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+        <title>Projetos</title>
+        <link rel="shortcut icon" href="images/portfolio.png" type="image/x-icon">
         <link rel="stylesheet" href="form.css">
-        <script src=""></script>
     </head>
     <body>
         <header>
-            <h1>Estudos</h1>
-            <nav>
-                <a href="projeto.html">Projetos</a>
-            </nav>
+            <picture><img src="images/perfil.jpeg" alt="" class="perfil"></picture>
+
+            <section class="resume">
+            <p>Um amante de café que por coincidência decidiu entrar no mundo da tecnologia através de um simples 
+            "Olá, mundo!" escrito em um script básico de Python (Obrigado mestre Guanabara). Neste meio tempo me encontrei com análise de dados e 
+            percebi que é este caminho que quero seguir, analisar dados através de Banco de dados com MySQL ou Pandas está no meu Sangue. Para você quem 
+            lê isso e talvez dados não seja seu campo, também é possível ver alguns projetos em Python envolvendo interfaces gráficas com PyQt6 junto com SQLite, 
+            mas isso deixo para outros planos. 
+
+            Por fim, caso você tenha visto 
+            algum projeto e queira saber mais ou até 
+            mesmo perguntar sobre algo envolvendo dados ou Python, sinta-se livre para mandar uma mensagem.
+        </p>
+
         </header>
-        <main>
-            <section>
 
-                <h2>Registros</h2>
-                <picture>
-                    <source media="(min-width: 160px)" srcset="images/gif/Revise English GIF by Reuben Armstrong_160_90.gif" class="gif_ajust">
-                    <source media="(min-width: 280px)" srcset="images/gif/Revise English GIF by Reuben Armstrong_280_158.gif" class="gif_ajust">
-                    <img src="images/gif/Revise English GIF by Reuben Armstrong.gif" alt="books_gif" class="gif_ajust">
-                </picture>
+        <main id="main_layout">
+            <div class="containers_projetos">
+                <section class="content">
+                    <h2>Your Finances</h2>
 
-                <p>Acredito que anotar tudo aquilo que é aprendido seja de forma manual ou digital possibilita ter uma maior absorvição do conteúdo estudado,
-                    logo para isso decide criar páginas Notion para acompanhar meu desenvolvimento em relação a área estudada. Caso tenha interesse sobre, basta seguir os links logo abaixo.
-                </p>
+                    <picture>
+                        <img src="gif/your_finance.gif" alt="menu your finances">
+                    </picture>
+
+                    <p>
+                        O <strong>Your Finance</strong> nasceu com o propósito de permitir ter um maior controle financeiro, assim permitindo deixar de lado
+                        as planilhas gigantescas.
+                    </p>
+
+                    <a href="https://github.com/Diogonogueirasantos/Finances" class="buttom" target="_blank">Saiba mais</a>
+                </section>
+
+                <section class="content">
+                    <h2>Manager Packages</h2>
+
+                    <picture>
+                        <img src="gif/manager_packages.gif" alt="Manager Packages Tool">
+                    </picture>
+                    <p>Criado com o propósito de automatizar funções corriqueiras, como: atualizar, instalar e desistalar pacotes no sistema operacional. 
+                        Esta ferramente foi criada especialmente para a Distro linux <strong>Fedora</strong>.
+                    </p>
+                    <a href="https://github.com/Diogonogueirasantos/Maneger_Packages" class="buttom" target="_blank">Saiba mais</a>
+                </section>
+
+                <section class="content">
+                    <h2>Caso de Estudo: Titanic</h2>
+
+                    <picture>
+                        <img src="gif/Working Kermit The Frog GIF.gif" alt="Gif:Frog">
+                    </picture>
+
+                    <p>Iniciar um processo de análise de dados sem uma definição pode levar muitas das vezes a própria desistência do projeto, 
+                        com isso a ideia central desse caso de estudo é entender como a aplicação do método EDA pode ajudar a 
+                        fundamentar ideias para processos mais 
+                        complexos envolveno análises preditivas.</p>
+
+                    <a href="https://github.com/Diogonogueirasantos/Caso_estudo_Titanic" class="buttom" target="_blank">Saiba mais</a>
+                </section>
+           </div>
+
+           <aside id="notion_layouts">
+                <h2>Notions Page</h2>
+                <p>Esta sessão é destinada às minhas páginas Notion, é nelas onde registro meus estudos envolvendo tecnologias.</p>
 
                 <ul>
-                    <li>
-                        <a href="https://accurate-spell-c5e.notion.site/SQL-2a8633badb1d80b9b06df1ad4437354b?source=copy_link" target="_blank">SQL Learning</a>
-                    </li>
-                    
+                    <li><a href="https://accurate-spell-c5e.notion.site/Fundamentos-SQL-2a8633badb1d80b9b06df1ad4437354b" target="_blank">Jornada SQL  </a></li>
                 </ul>
-
-            </section>              
+           </aside>
         </main>
 
         <footer>
             <nav>
-                <a href="https://www.linkedin.com/in/diogo-santos-0a8730372/"
-                    target="_blank"><img width="37px" src="images/icons8-linkedin-50.png" alt="linkedin_logo"></a>
-                <a href="https://github.com/Diogonogueirasantos" target="_blank"><img width="37px" src="images/icons8-github-64.png"
-                        alt=""></a>
-                <a href="mailto:diogo.nogueira.santos@outlook.com"><img src="images/envelope.png" alt="Email-envelop" width="37px"></a>
+                <a href="https://www.linkedin.com/in/diogo-santos-data-analysis?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BoJVGeRHwTei106nR7roOmA%3D%3D" target="_blank"><img src="images/linkedin.png" alt="" width="64px"></a>
+                <a href="https://github.com/Diogonogueirasantos" target="_blank"><img src="images/github.png" alt="" width="64px"></a>
+                <a href="https://medium.com/@diogo.nogueira.santos" target="_blank"><img src="images/icon-icons.svg" alt="" width="64px"></a>
             </nav>
         </footer>
     </body>
